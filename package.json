@@ -1,5 +1,5 @@
 {
-  "name": "docker-secret",
+  "name": "@halitsever/docker-secret",
   "version": "2.0.6",
   "repository": {
     "type": "git",
