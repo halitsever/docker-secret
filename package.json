@@ -1,9 +1,9 @@
 {
   "name": "@risingdijital/docker-secret",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hwkd/docker-secret"
+    "url": "https://github.com/halitsever/docker-secret"
   },
   "description": "Utility for retrieving docker secrets.",
   "main": "dist/index.js",
@@ -22,7 +22,7 @@
     "docker",
     "secrets"
   ],
-  "author": "Justin Kim <justinkimkorea@gmail.com>",
+  "author": "Justin Kim <justinkimkorea@gmail.com>, Halit Sever <halitsever@proton.me>",
   "license": "MIT",
   "engines": {
     "node": ">= 6"

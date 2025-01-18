@@ -17,6 +17,7 @@ describe("getSecrets", function () {
 
       const secrets = getSecrets<typeof cred>(dir);
 
+      console.log(secrets.USERNAME);
       expect(secrets).toHaveProperty("USERNAME");
       expect(secrets.USERNAME).toBe(cred.USERNAME);
 

@@ -1,8 +1,33 @@
-# docker-secret
+<p align="center" class="logo-section">
+<img src="https://i.ibb.co/31bY6kK/codicon-gist-secret.png" height="80" width="80"/>
+</br>
+<img src="https://halitsever-api.vercel.app/api/repo-title?title=Docker+Secret">
 
-Utility for retrieving docker secrets.
+<p align="center">
+🧰 Utility for retrieving docker secrets.<br>
+<br/>
+<br/>
+</p>
+<p align="center">
+<a align="center" href="#">Documentation</a>
+  </p>
+</p>
 
-## Usage
+<a align="center">
+<img src="https://halitsever-api.vercel.app/api/details"/>
+</a>
+
+- 🐳 [**Docker**](#) - You can access secrets from docker's secrets file on nodejs
+
+<a align="center" >
+<img src="https://halitsever-api.vercel.app/api/installation"/>
+</a>
+
+Installation:
+
+```bash
+npm install @risingdijital/docker-secret --save
+```
 
 Given that you have created secrets for your docker swarm
 
@@ -55,3 +80,15 @@ secrets.RANDOM; // error
 // You can also call the function without any argument to load secrets from `/run/secrets` by default.
 const secrets = getSecrets<Credentials>();
 ```
+
+<a align="center" href="https://github.com/halitsever/logmoji/issues">
+<img src="https://halitsever-api.vercel.app/api/issue"/>
+</a>
+
+<a align="center">
+<img src="https://halitsever-api.vercel.app/api/license"/>
+</a>
+
+<p align="center">
+...
+</p>
