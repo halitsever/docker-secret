@@ -81,7 +81,7 @@ secrets.RANDOM; // error
 const secrets = getSecrets<Credentials>();
 ```
 
-<a align="center" href="https://github.com/halitsever/logmoji/issues">
+<a align="center" href="https://github.com/halitsever/docker-secret/issues">
 <img src="https://halitsever-api.vercel.app/api/issue"/>
 </a>
 
